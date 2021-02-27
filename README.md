@@ -2,7 +2,7 @@
 
 **Twitter** is an app that pulls data from Twitter's API for users to view, compose, favorite, and retweet tweets.
 
-Time spent: **5** hours spent in total
+Time spent: **6** hours spent in total
 
 ## User Stories
 
