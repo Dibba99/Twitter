@@ -1,6 +1,6 @@
 # Project 3 - *Twitter*
 
-**Twitter** is a basic twitter app to read your tweets.
+**Twitter** is an app that pulls data from Twitter's API for users to view, compose, favorite, and retweet tweets.
 
 Time spent: **5** hours spent in total
 
@@ -23,5 +23,5 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![GIF](https://github.com/Dibba99/Twitter/tree/master/GIF)
 
