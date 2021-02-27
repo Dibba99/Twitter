@@ -21,7 +21,7 @@ The following **bonus** features are implemented:
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
+Here's a walkthrough of implemented app:
 
 ![GIF](https://github.com/Dibba99/Twitter/blob/master/GIF/TWITTER_APP_GIF.gif)
 
