@@ -23,5 +23,5 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-![GIF](https://github.com/Dibba99/Twitter/tree/master/GIF)
+![GIF](https://github.com/Dibba99/Twitter/blob/master/GIF/TWITTER_APP_GIF.gif)
 
