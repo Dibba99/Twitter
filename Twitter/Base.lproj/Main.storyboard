@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LXN-Ys-l6z">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LXN-Ys-l6z">
     <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,21 +17,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mJb-6b-I6W" userLabel="VIEW_WITH_TWITTER_LOGO">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mJb-6b-I6W" userLabel="VIEW_WITH_TWITTER_LOGO">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Daco_4519543" translatesAutoresizingMaskIntoConstraints="NO" id="3Kj-8Q-SCm">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Daco_4519543" translatesAutoresizingMaskIntoConstraints="NO" id="3Kj-8Q-SCm">
                                         <rect key="frame" x="33" y="52" width="349" height="655"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qqj-IO-hL7" customClass="RoundButton" customModule="Twitter" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qqj-IO-hL7" customClass="RoundButton" customModule="Twitter" customModuleProvider="target">
                                         <rect key="frame" x="73" y="679" width="269" height="64"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBlack" family="Helvetica Neue" pointSize="34"/>
                                         <state key="normal" title="Login">
-                                            <color key="titleColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleColor" systemColor="systemTealColor"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -45,11 +43,27 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                                <constraints>
+                                    <constraint firstItem="3Kj-8Q-SCm" firstAttribute="top" secondItem="mJb-6b-I6W" secondAttribute="top" constant="52" id="4Q9-hy-JZC"/>
+                                    <constraint firstItem="3Kj-8Q-SCm" firstAttribute="leading" secondItem="mJb-6b-I6W" secondAttribute="leading" constant="33" id="BsK-sf-XSU"/>
+                                    <constraint firstAttribute="bottom" secondItem="qqj-IO-hL7" secondAttribute="bottom" constant="153" id="Cnj-0r-ZiU"/>
+                                    <constraint firstAttribute="trailing" secondItem="qqj-IO-hL7" secondAttribute="trailing" constant="72" id="F51-x9-YZn"/>
+                                    <constraint firstItem="qqj-IO-hL7" firstAttribute="top" secondItem="mJb-6b-I6W" secondAttribute="top" constant="679" id="e0h-uC-mwc"/>
+                                    <constraint firstItem="qqj-IO-hL7" firstAttribute="leading" secondItem="mJb-6b-I6W" secondAttribute="leading" constant="73" id="jIW-oE-DRs"/>
+                                    <constraint firstAttribute="trailing" secondItem="3Kj-8Q-SCm" secondAttribute="trailing" constant="32" id="k5k-Pf-TO2"/>
+                                    <constraint firstAttribute="bottom" secondItem="3Kj-8Q-SCm" secondAttribute="bottom" constant="189" id="uWM-5n-yfH"/>
+                                </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="fqR-jd-1TR"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="mJb-6b-I6W" firstAttribute="leading" secondItem="fqR-jd-1TR" secondAttribute="leading" id="6BP-YS-eU9"/>
+                            <constraint firstItem="mJb-6b-I6W" firstAttribute="top" secondItem="NFk-iW-MXE" secondAttribute="top" id="GrQ-R4-hJq"/>
+                            <constraint firstAttribute="bottom" secondItem="mJb-6b-I6W" secondAttribute="bottom" id="S0J-UI-Xtv"/>
+                            <constraint firstItem="mJb-6b-I6W" firstAttribute="trailing" secondItem="fqR-jd-1TR" secondAttribute="trailing" id="ZY8-w1-Atc"/>
+                        </constraints>
                     </view>
                     <connections>
                         <segue destination="jW8-Bp-A3E" kind="presentation" identifier="loginToHome" modalPresentationStyle="fullScreen" id="LYK-gv-HHT"/>
@@ -66,7 +80,7 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="bPu-ep-z7g">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="tweetCell" rowHeight="121" id="u0Y-Oj-RJD" customClass="TweetCellTableViewCell" customModule="Twitter" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="121"/>
@@ -126,7 +140,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Home" id="hOH-mZ-xrv">
                         <barButtonItem key="rightBarButtonItem" title="logout" id="lv2-y5-U0S">
-                            <color key="tintColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            <color key="tintColor" systemColor="systemBackgroundColor"/>
                             <connections>
                                 <action selector="onLogout:" destination="cee-5V-URf" id="r7S-NF-oTV"/>
                             </connections>
@@ -144,9 +158,9 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="FQw-G0-CLQ">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" systemColor="systemTealColor"/>
                         <textAttributes key="titleTextAttributes">
-                            <color key="textColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            <color key="textColor" systemColor="systemBackgroundColor"/>
                         </textAttributes>
                     </navigationBar>
                     <connections>
@@ -158,7 +172,18 @@
             <point key="canvasLocation" x="-1294" y="-384"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="qqj-IO-hL7">
+            <size key="intrinsicContentSize" width="77" height="53"/>
+        </designable>
+    </designables>
     <resources>
         <image name="Daco_4519543" width="626" height="626"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
     </resources>
 </document>
