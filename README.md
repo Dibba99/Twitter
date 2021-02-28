@@ -23,5 +23,5 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented app:
 
-![GIF](https://github.com/Dibba99/Twitter/blob/master/GIF/TWITTER_APP_GIF.gif)
+![GIF](https://github.com/Dibba99/Twitter/blob/master/GIF/ezgif.com-gif-maker%20(6).gif)
 
