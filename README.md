@@ -1,4 +1,4 @@
-# Project 3 - *Twitter*
+# *Twitter*
 
 **Twitter** is an app that pulls data from Twitter's API for users to view, compose, favorite, and retweet tweets.
 
