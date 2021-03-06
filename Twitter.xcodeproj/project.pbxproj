@@ -17,6 +17,7 @@
 		869A8D7025E85669005AB545 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869A8D6F25E85669005AB545 /* HomeTableViewController.swift */; };
 		869A8D7225E86E5B005AB545 /* TweetCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869A8D7125E86E5B005AB545 /* TweetCellTableViewCell.swift */; };
 		869A8D7425E8D530005AB545 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869A8D7325E8D530005AB545 /* RoundButton.swift */; };
+		86BD806525F1A86300B4DE83 /* TweetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BD806425F1A86300B4DE83 /* TweetViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		869A8D6F25E85669005AB545 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 		869A8D7125E86E5B005AB545 /* TweetCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCellTableViewCell.swift; sourceTree = "<group>"; };
 		869A8D7325E8D530005AB545 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		86BD806425F1A86300B4DE83 /* TweetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetViewController.swift; sourceTree = "<group>"; };
 		872C2D82F41D5A5D2A920E9E /* Pods_Twitter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Twitter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2D685C92646819A9A0DC30C /* Pods-Twitter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twitter.release.xcconfig"; path = "Pods/Target Support Files/Pods-Twitter/Pods-Twitter.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,6 +90,7 @@
 				869A8D6F25E85669005AB545 /* HomeTableViewController.swift */,
 				869A8D7125E86E5B005AB545 /* TweetCellTableViewCell.swift */,
 				869A8D7325E8D530005AB545 /* RoundButton.swift */,
+				86BD806425F1A86300B4DE83 /* TweetViewController.swift */,
 			);
 			path = Twitter;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 				869A8D7025E85669005AB545 /* HomeTableViewController.swift in Sources */,
 				863E0FAF25E6D90D005BA120 /* LoginViewController.swift in Sources */,
 				6EBCF54421E047A500451C03 /* TwitterAPICaller.swift in Sources */,
+				86BD806525F1A86300B4DE83 /* TweetViewController.swift in Sources */,
 				869A8D7225E86E5B005AB545 /* TweetCellTableViewCell.swift in Sources */,
 				6EBCF52621DF07FC00451C03 /* AppDelegate.swift in Sources */,
 			);
